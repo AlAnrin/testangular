@@ -1,0 +1,32 @@
+<div class="courseFolderFlexRow">
+  <div class="courseFolderLeftSide">
+    <p style="margin: 4px"><b>Название курса: </b><br></p>
+  </div>
+  <div class="courseFolderRightSide">
+    <p><input class="inputText" type="text" [value]="selectCourse.name" (input)="selectCourse.name=$event.target.value"><br></p>
+  </div>
+</div>
+<div class="courseFolderFlexRow">
+  <div class="courseFolderLeftSide">
+    <p style="margin: 4px"><b>Полное наименование: </b><br></p>
+  </div>
+  <div class="courseFolderRightSide">
+    <p><input class="inputText" type="text" [value]="selectCourse.fullName" (input)="selectCourse.fullName=$event.target.value"><br></p>
+  </div>
+</div>
+<div class="courseFolderFlexRow">
+  <div class="courseFolderLeftSide">
+    <p style="margin: 4px"><b>Длительность курса: </b><br></p>
+  </div>
+  <div class="courseFolderRightSide">
+    <p><input class="inputText" type="number" [value]="selectCourse.academHours" (input)="selectCourse.academHours=$event.target.value"><br></p>
+  </div>
+</div>
+<div class="courseFolderFlexRow">
+  <div class="courseFolderLeftSide">
+    <p style="margin: 4px"><b>Описание: </b></p>
+  </div>
+  <div class="courseFolderRightSide">
+    <p><textarea [value]="selectCourse.description" (input)="selectCourse.description=$event.target.value" rows="10" cols="100"></textarea></p>
+  </div>
+</div>

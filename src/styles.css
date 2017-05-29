@@ -1,0 +1,268 @@
+h1 {
+  color: #002436;
+  font-family: Arial, serif;
+  font-size: 170%;
+  margin: 8px;
+}
+h2 {
+  color: #fff;
+  font-family: Arial, serif;
+  font-size: 120%;
+  text-align: right;
+}
+h3 {
+  color: midnightblue;
+  font-family: Arial, serif;
+  font-size: 110%;
+  margin: 6px;
+  text-align: left;
+  vertical-align: middle;
+}
+p {
+  font-family: Arial, serif;
+  padding: 1px;
+  margin: 2px;
+}
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+div {
+  display: block;
+}
+.topSide {
+  width: 100%;
+  height: 58px;
+  background-color: #043365;
+  flex-direction: column;
+  position: relative;
+}
+.containerTopSide {
+  display: flex;
+  flex-direction: row;
+  height: 58px;
+}
+.divTopSide {
+  color: #fff;
+  padding: 2px;
+  margin: 1px;
+}
+.divTopSide:hover {
+  background-color: #3477BE;
+  cursor: pointer;
+  margin: 0px 1px 0px 1px;
+}
+.pageSide {
+  width: 100%;
+  position: relative;
+}
+.leftSideBar {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  left: 0;
+  z-index: 300;
+}
+.buttonSideBar {
+  align-items: center;
+  background-color: #3477BE;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 52px;
+}
+.utkSide {
+  height: 100%;
+  width: 100%;
+  background-color: #F4F5F7;
+  color: #42526E;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0px 0px 0;
+}
+.courseFolder {
+  clear: both;
+  padding: 0;
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 25%;
+  border-top: #F4F5F7 solid 2px;
+}
+.courseFolderFlexRow {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 0;
+}
+.courseFolderLeftSide {
+  clear: both;
+  display: block;
+  padding: 0;
+  position: relative;
+  margin: 5px;
+  width: 25%;
+}
+.courseFolderRightSide {
+  height: 92%;
+  float: left;
+  position: relative;
+  padding: 3px;
+  margin: 5px;
+  width: 72%;
+}
+.inputText {
+  width: 100%;
+}
+.treeElement {
+  color: #002436;
+}
+.treeElement:hover {
+  background-color: #DADBDD;
+}
+.treeElementChecked {
+  background-color: #CBCCCE;
+}
+.divButtons {
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+}
+.buttonLeftSide {
+  width: 48px;
+  height: 48px;
+  border: transparent;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+.divButtons:hover {
+  cursor: pointer;
+  background: #043365;
+  margin: 1px 0px 1px 0px;
+}
+.pTreeView {
+  width: 32px;
+  height: 32px;
+}
+#save{
+  background: url("app/images/light/appbar.save.png") no-repeat center/cover;
+}
+#delete{
+  background: url("app/images/light/appbar.delete.png") no-repeat center/cover;
+}
+#update {
+  background: url("app/images/light/appbar.refresh.png") no-repeat center/cover;
+}
+#courseClose {
+  background: url("app/images/light/appbar.door.lock.closed.png") no-repeat center/cover;
+}
+#courseOpen {
+  background: url("app/images/light/appbar.door.lock.open.png") no-repeat center/cover;
+}
+#folder {
+  background: url("app/images/light/appbar.folder.open.png") no-repeat center/cover;
+}
+#ietr {
+  background: url("app/images/light/appbar.cogs.png") no-repeat center/cover;
+}
+#manuals {
+  background: url("app/images/light/appbar.cabinet.files.png") no-repeat center/cover;
+}
+#learnPlan {
+  background: url("app/images/light/appbar.people.profile.png") no-repeat center/cover;
+}
+#lecture {
+  background: url("app/images/light/appbar.book.png") no-repeat center/cover;
+}
+#poster {
+  background: url("app/images/light/appbar.image.hdr.png") no-repeat center/cover;
+}
+#ptTraining {
+  background: url("app/images/light/appbar.sport.football.png") no-repeat center/cover;
+}
+#ptNormative {
+  background: url("app/images/light/appbar.checkmark.pencil.png") no-repeat center/cover;
+}
+#test {
+  background: url("app/images/light/appbar.input.question.png") no-repeat center/cover;
+}
+#search {
+  background: url("app/images/dark/appbar.magnify.png") no-repeat center/cover;
+}
+#chat {
+  background: url("app/images/dark/appbar.chat.png") no-repeat center/cover;
+}
+#logo {
+  background: url("app/images/tnlogoWhite.png") no-repeat center/cover;
+}
+#saveLight {
+  background: url("app/images/dark/appbar.save.png") no-repeat center/cover;
+}
+#deleteLight {
+  background: url("app/images/dark/appbar.delete.png") no-repeat center/cover;
+}
+#updateLight {
+  background: url("app/images/dark/appbar.refresh.png") no-repeat center/cover;
+}
+#courseCloseLight {
+  background: url("app/images/dark/appbar.door.lock.closed.png") no-repeat center/cover;
+}
+#courseOpenLight {
+  background: url("app/images/dark/appbar.door.lock.open.png") no-repeat center/cover;
+}
+#folderLight {
+  background: url("app/images/dark/appbar.folder.open.png") no-repeat center/cover;
+}
+#ietrLight {
+  background: url("app/images/dark/appbar.cogs.png") no-repeat center/cover;
+}
+#manualsLight {
+  background: url("app/images/dark/appbar.cabinet.files.png") no-repeat center/cover;
+}
+#learnPlanLight {
+  background: url("app/images/dark/appbar.people.profile.png") no-repeat center/cover;
+}
+#lectureLight {
+  background: url("app/images/dark/appbar.book.png") no-repeat center/cover;
+}
+#posterLight {
+  background: url("app/images/dark/appbar.image.hdr.png") no-repeat center/cover;
+}
+#ptTrainingLight {
+  background: url("app/images/dark/appbar.sport.football.png") no-repeat center/cover;
+}
+#ptNormativeLight {
+  background: url("app/images/dark/appbar.checkmark.pencil.png") no-repeat center/cover;
+}
+#testLight {
+  background: url("app/images/dark/appbar.input.question.png") no-repeat center/cover;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  color: #555;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
